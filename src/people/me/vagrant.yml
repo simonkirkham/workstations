@@ -10,17 +10,18 @@ work:
 
 playground:
   includes:
-    - components/os/w16s
+    - components/os/w10e
     - stacks/dotnetcore/library
     - stacks/dotnetcore/web
     - stacks/dotnetfx/library
     - stacks/dotnetfx/web
     - stacks/sql/management
-    - stacks/infrastructure/dockere
     - stacks/infrastructure/virtualbox
     - stacks/infrastructure/aws
     - components/git/core
     - components/svn/core
+    - projects/github/git
+    - projects/aspnet/logging
   chef:
     json:
       gusztavvargadr_workstations_dockere:
