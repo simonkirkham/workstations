@@ -16,7 +16,7 @@ work:
 
 playground:
   includes:
-    - components/os/w16s
+    - components/os/w10e
     - stacks/dotnetcore/library
     - stacks/dotnetcore/web
     - stacks/dotnetfx/library

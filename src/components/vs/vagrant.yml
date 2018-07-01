@@ -31,7 +31,7 @@ v15p:
 v17c:
   includes:
     - components/vs/core
-  box: w16s-vs17c
+  box: w10e-vs17c
 
 v17p:
   includes:
