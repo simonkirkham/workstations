@@ -17,4 +17,4 @@ web:
         tools:
           chocolatey:
             postman:
-            fiddler4:
+            fiddler:
