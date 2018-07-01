@@ -1,39 +1,8 @@
 core:
   includes:
     - components/core/core
-  chef:
-    json:
-      gusztavvargadr_workstations_core:
-        tools:
-          chocolatey:
-            resharper:
-            dotcover:
-            dottrace:
-            dotmemory:
-            dotpeek:
-            resharper-clt:
-
-v10p:
-  includes:
-    - components/vs/core
-  box: w16s-vs10p
-
-v15c:
-  includes:
-    - components/vs/core
-  box: w16s-vs15c
-
-v15p:
-  includes:
-    - components/vs/core
-  box: w16s-vs15p
 
 v17c:
   includes:
     - components/vs/core
   box: w10e-vs17c
-
-v17p:
-  includes:
-    - components/vs/core
-  box: w16s-vs17p
