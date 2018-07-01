@@ -9,21 +9,22 @@ core:
         tools:
           chocolatey:
             conemu:
-            far:
+            cmder:
             visualstudiocode:
-            beyondcompare:
             googlechrome:
+            kdiff3:
+            putty:
           files:
             file:///vagrant-workstations/src/components/os/ConEmu.xml: /Users/vagrant/AppData/Roaming/ConEmu.xml
             file:///vagrant-workstations/src/components/os/visualstudiocode.settings.json: /Users/vagrant/AppData/Roaming/Code/User/settings.json
       gusztavvargadr_workstations_os:
         requirements:
           locales:
-            system: en-US
-            ui: en-US
-            user: nl-NL
+            system: en-GB
+            ui: en-GB
+            user: en-GB
           datetime:
-            timezone: W. Europe Standard Time
+            timezone: GMT Standard Time
 
 w10e:
   includes:

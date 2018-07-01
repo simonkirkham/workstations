@@ -17,6 +17,7 @@ work:
 playground:
   includes:
     - components/os/w10e
+    - projects/aspnet/logging
     - stacks/dotnetcore/library
     - stacks/dotnetcore/web
     - stacks/dotnetfx/library
@@ -26,7 +27,6 @@ playground:
     - stacks/infrastructure/virtualbox
     - stacks/infrastructure/aws
     - components/git/core
-    - components/svn/core
   provider:
     memory: 8192
     cpus: 3

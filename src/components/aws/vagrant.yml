@@ -9,5 +9,3 @@ core:
         tools:
           chocolatey:
             awscli:
-            duck:
-            cyberduck:
