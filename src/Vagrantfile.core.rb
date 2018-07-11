@@ -31,6 +31,7 @@ def gusztavvargadr_workstations_vm(config, vm_directory, vm)
     end
 
     config_vm.vm.synced_folder "#{src_directory}/..", '/vagrant-workstations'
+    config_vm.vm.synced_folder "C:\\Users\\Bob\\Documents\\Coding", '/coding'
 
     options_chef = options['chef']
     gusztavvargadr_workstations_vm_chef config_vm, options_chef, 'requirements'
